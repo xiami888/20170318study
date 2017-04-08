@@ -1,0 +1,55 @@
+﻿/*设置图片左边框*/
+* {
+    padding:0px;
+    margin:0px;
+}
+/*设置图片为绝对定位，也可以为相对定位*/
+.ig {
+    position:absolute;
+}
+
+/*设置左右按钮的属性；*/
+.btn {
+position:absolute;
+height:90px;
+width:60px;
+background:rgba(0, 0, 0, 0.5);
+color:#fff;
+text-align:center;
+line-height:90px;
+font-size:40px;
+top:205px;
+cursor:pointer;
+/*display:none;*/  /*默认左右图标不显示*/
+}
+/*单独设置btn2的位置*/
+.btn2 {
+left:440px;
+}
+/*不显示ul*/
+.ul {
+list-style-type:none;
+}
+/*设置表格位置*/
+#tabs {
+position:absolute;
+top:465px;
+left:150px;
+}
+/*设置角标css属性*/
+.tab {
+width:30px;
+height:30px;
+background-color:#5b7ad0;
+float:left;
+text-align:center;
+line-height:30px;
+color:#fff;
+margin-right:8px;
+border-radius:100%;
+cursor:pointer;
+}
+/*设置角标鼠标放上时的显示为红色*/
+.bg {
+background-color:#ff0000;
+}
